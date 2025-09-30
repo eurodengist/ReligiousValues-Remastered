@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200"
+   height="200"
+   viewBox="0 0 52.916668 52.916666"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="catholic.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="envelope"
+       id="path-effect4658"
+       is_visible="true"
+       yy="true"
+       xx="true"
+       bendpath1="m -199.08406,108.42369 h 7.0057"
+       bendpath2="m -192.07836,108.42369 v 6.75242"
+       bendpath3="m -199.08406,115.17611 h 7.0057"
+       bendpath4="m -199.08406,108.42369 v 6.75242" />
+    <inkscape:path-effect
+       effect="bend_path"
+       id="path-effect4656"
+       is_visible="true"
+       bendpath="m -192.00142,114.60623 c 2.12577,-0.53066 4.48261,0.85111 7.0057,0"
+       prop_scale="1"
+       scale_y_rel="false"
+       vertical="false"
+       bendpath-nodetypes="cc" />
+    <inkscape:path-effect
+       effect="bounding_box"
+       id="path-effect4654"
+       is_visible="true"
+       linkedpath=""
+       visualbounds="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.6203867"
+     inkscape:cx="86.59296"
+     inkscape:cy="99.989319"
+     inkscape:document-units="px"
+     inkscape:current-layer="g5175"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:object-nodes="true"
+     units="px"
+     inkscape:snap-page="true"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(98.048812,-95.14345)">
+    <g
+       style="stroke-width:0.5"
+       transform="matrix(2,0,0,2,-98.048812,95.143449)"
+       id="g5175">
+      <rect
+         y="-1.110223e-16"
+         x="0"
+         height="26.458334"
+         width="26.458334"
+         id="rect5163"
+         style="opacity:1;fill:#222222;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.90944878;paint-order:normal"
+         rx="1.984375"
+         ry="1.984375" />
+      <rect
+         style="opacity:1;fill:#ffcc00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.90944878;paint-order:normal"
+         id="rect5165"
+         width="23.8125"
+         height="23.8125"
+         x="1.322917"
+         y="1.322917"
+         rx="1.3229166"
+         ry="1.3229166" />
+      <path
+         style="opacity:1;fill:#222222;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.24999997;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.90944878;paint-order:normal"
+         d="m 0.72760492,18.520836 v 4.167188 c 0,1.539081 1.23904398,2.778124 2.77812498,2.778124 H 22.952604 c 1.539081,0 2.778125,-1.239043 2.778125,-2.778124 v -4.167188 z"
+         id="rect5205-3-6"
+         inkscape:connector-curvature="0" />
+      <path
+         fill="currentColor"
+         d="M 21.024014,6.0997042 20.63425,5.7099396 C 19.410466,6.8791627 18.272424,7.970432 17.072026,8.578429 15.957369,9.147432 15.131122,9.147432 14.008669,9.217602 14.078839,8.095152 14.078839,7.268903 14.647843,6.1542474 15.25584,4.9538432 16.347111,3.8158056 17.516328,2.5920216 L 17.126563,2.2022571 c -1.309526,0.9587613 -2.619054,1.426451 -3.897399,1.426451 -1.278344,0 -2.587872,-0.4677183 -3.8973978,-1.426451 L 8.9420022,2.5920216 C 10.111225,3.8158056 11.202494,4.9538432 11.81049,6.1542474 12.379494,7.2689273 12.379494,8.095174 12.449664,9.217627 11.327214,9.147457 10.500965,9.147457 9.3863092,8.578453 8.1859052,7.970456 7.0400731,6.8791848 5.8240839,5.7099617 L 5.4343194,6.0997262 c 0.9587613,1.309528 1.426451,2.6190538 1.426451,3.8974048 0,1.278347 -0.4676588,2.587873 -1.426451,3.897401 l 0.3897645,0.389764 c 1.223784,-1.169222 2.3618213,-2.260494 3.5622253,-2.868491 1.1146558,-0.569003 1.9409048,-0.569003 3.0633548,-0.639173 -0.07017,1.122452 -0.07017,1.948699 -0.639174,3.063355 -0.607996,1.200406 -1.699265,2.338441 -2.8684878,3.562225 l 0.389764,0.389765 c 1.3095258,-0.958761 2.6190538,-1.426449 3.8973978,-1.426449 1.278352,0 2.587878,0.467657 3.897406,1.426449 l 0.389764,-0.389765 c -1.169223,-1.22383 -2.260494,-2.361868 -2.868491,-3.562272 -0.569004,-1.114655 -0.569004,-1.940904 -0.639174,-3.063354 1.122453,0.07017 1.9487,0.07017 3.063357,0.639171 1.200405,0.607999 2.33844,1.699268 3.562224,2.868491 l 0.389764,-0.389765 C 20.06526,12.584958 19.59757,11.27543 19.59757,9.997079 c 0,-1.278345 0.467659,-2.5878733 1.426444,-3.8973991"
+         id="path1701"
+         style="fill:#222222;fill-opacity:1;stroke-width:0.38974" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.70954px;fill:#222222;fill-opacity:1;stroke-width:0.196237"
+         x="1.3886294"
+         y="23.81246"
+         id="text2040"><tspan
+           sodipodi:role="line"
+           id="tspan2038"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Gothic A1';-inkscape-font-specification:'Gothic A1 Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.196237"
+           x="1.3886294"
+           y="23.81246">CATHOLIC</tspan></text>
+    </g>
+  </g>
+</svg>
