@@ -1,2 +1,2 @@
-# Religious Values Test
-The Third Version (14th of March, 22).
+# ReligiousValues Remastered
+Fork of Religious Values Test by bannnedb
