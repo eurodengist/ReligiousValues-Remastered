@@ -329,21 +329,6 @@ ideologies = [
         }
     },
 	{
-        "name": "Pantheist",
-        "stats": {
-            "a": 90,
-            "b": 90,
-            "c": 90,
-            "d": 90,
-            "e": 90,
-            "f": 90,
-            "x": 90,
-            "g": 90,
-            "h": 90,
-            "i": 100
-        }
-    },
-	{
         "name": "Secular Hindu",
         "stats": {
             "a": 30,
