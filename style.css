@@ -1,5 +1,5 @@
 html {
-    background-color: #bcbcbc;
+    background-color: #555555;
     padding: 0px;
 }
 body {
@@ -7,8 +7,8 @@ body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #777777;
-    border-color: #555555;
+    background-color: #bcbcbc;
+    border-color: #777777;
     border-left-style: solid;
     border-right-style: solid;
     border-width: 20px;
