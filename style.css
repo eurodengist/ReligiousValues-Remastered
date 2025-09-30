@@ -1,30 +1,25 @@
 html {
-    background-color: #555555;
+    background-color: #bbbbbb;
     padding: 0px;
 }
+
 body {
     width: 80%;
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #bcbcbc;
-    border-color: #777777;
+    background-color: #dddddd;
+    border-color: #eeeeee;
     border-left-style: solid;
     border-right-style: solid;
     border-width: 20px;
 }
 p, li {
-    color: #333333;
-    font-family: 'Noto+Sans+Mono', sans-serif;
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
     font-size: 16pt;
     line-height: 1;
     margin: 4pt;
-}
-a{
-    color: #2222DD;
-}
-a:hover{
-    color: #22DDDD;
 }
 p.value-description {
     text-indent: -16pt;
@@ -32,13 +27,13 @@ p.value-description {
 }
 p.question {
     margin: 16pt auto;
-    color: #222222;
-    font-family: 'Noto+Sans+Mono', sans-serif;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     width: 70%;
     min-width: 500pt;
     min-height: 144pt;
-    background-color: #bcbcbc;
+    background-color: #eeeeee;
     padding: 16pt;
     border-radius: 16pt;
     font-size: 36pt;
@@ -49,8 +44,8 @@ p.question {
 
 }
 h1 {
-    color: #111111;
-    font-family: 'Noto+Sans+Mono', sans-serif;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
     font-size: 72pt;
     text-align: center;
     line-height: 72pt;
@@ -62,7 +57,7 @@ h1 {
 }
 h2 {
     color: #333333;
-    font-family: 'Noto+Sans+Mono', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
     margin-top: 12pt;
@@ -82,8 +77,8 @@ img.center {
     min-width: 500pt;
 }
 .button {
-    background-color: #1d79c4;
-    font-family: 'Noto+Sans+Mono', sans-serif;
+    background-color: #2196f3;
+    font-family: 'Montserrat', sans-serif;
     border: none;
     border-radius: 8pt;
     color: white;
@@ -98,8 +93,8 @@ img.center {
     cursor: pointer;
 }
 .small_button, .small_button_off {
-    background-color: #222;
-    font-family: 'Noto+Sans+Mono', sans-serif;
+    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
     border: none;
     border-radius: 8pt;
     color: white;
@@ -115,8 +110,8 @@ img.center {
 }
 .small_button_off {
     background-color: #ddd;
-    color: #555;
-    border: 2px solid #555;
+    color: #888;
+    border: 2px solid #888;
     cursor: not-allowed;
     margin: -4px auto;
 }
@@ -136,16 +131,16 @@ div.bar {
     border-right-width: 1px;
     border-top-style: solid;
     border-bottom-style: solid;
-    border-color: #111;
-    background-color: #555;
+    border-color: #222222;
+    background-color: #eeeeee;
     display: block;
     width: 50%;
 }
 div.text-wrapper {
-    font-family: 'Noto+Sans+Mono', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
-    color: #111;
+    color: #dddddd;
     display: inline-block;
 }
 div.catholic {
@@ -253,7 +248,7 @@ span.weight-300 {
     font-weight: 300;
 }
 canvas {
-    border-color: #111;
+    border-color: #444444;
     border-style: solid;
     border-width: 2px;
     border-radius: 8pt;
