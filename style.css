@@ -1,5 +1,5 @@
 html {
-    background-color: #555555;
+    background-color: #bcbcbc;
     padding: 0px;
 }
 body {
@@ -7,7 +7,7 @@ body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #bcbcbc;
+    background-color: #555555;
     border-color: #777777;
     border-left-style: solid;
     border-right-style: solid;
@@ -218,7 +218,7 @@ div.antibuddhist {
     text-align: right;
     border-left-style: solid;
 }
-div.prohindu {
+div.hindu {
     background-color: #ff6600;
     text-align: left;
     border-right-style: solid;
