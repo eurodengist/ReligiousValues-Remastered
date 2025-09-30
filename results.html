@@ -93,7 +93,7 @@
 <br><br>
 
 <canvas id="banner" width=800 height=1500 style="font-family:Noto+Sans+Mono"></canvas>
-<button class="button" onclick="downloadCanvas()" style="background-color: #4CAF50;">Download Image</button>
+<button class="button" onclick="downloadCanvas()" style="background-color: #4CAF50; margin-right: 15px;">Download Image</button>
 <button class="button" onclick="location.href='index.html';" style="background-color: #333;">Back</button> <br>
 <script>
     function getQueryVariable(variable)
@@ -213,6 +213,26 @@
         img.src = src
         img.onLoad = function() {
             ctx.drawImage(img, x, y, w, h)
+        }
+    }
+
+    function downloadCanvas() {
+        try {
+            var canvas = document.getElementById('banner');
+            var image = canvas.toDataURL('image/png');
+            
+            var link = document.createElement('a');
+            link.download = 'religious-values-result.png';
+            link.href = image;
+            
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+        } 
+        catch (error) {
+            console.error('Error downloading image:', error);
+            alert('Error downloading image. Please try again.');
         }
     }
 
