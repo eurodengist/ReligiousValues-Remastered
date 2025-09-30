@@ -57,21 +57,21 @@
     <div class="bar antishia" id="bar-antishia"><div class="text-wrapper" id="antishia"></div></div>
     <img id="img-antishia" src="value_images/antishia.svg" height="128pt"/>
 </div>
-<h2><span class="weight-300" id="f-label"></span></h2>
+<h2><span class="weight-300" id="x-label"></span></h2>
 <div class="axis">
     <img id="img-buddhist" src="value_images/buddhist.svg" height="128pt"/>
     <div class="bar buddhist" id="bar-buddhist"><div class="text-wrapper" id="buddhist"></div></div>
     <div class="bar antibuddhist" id="bar-antibuddhist"><div class="text-wrapper" id="antibuddhist"></div></div>
     <img id="img-antibuddhist" src="value_images/antibuddhist.svg" height="128pt"/>
 </div>
-<h2><span class="weight-300" id="x-label"></span></h2>
+<h2><span class="weight-300" id="g-label"></span></h2>
 <div class="axis">
     <img id="img-hindu" src="value_images/hindu.svg" height="128pt"/>
     <div class="bar hindu" id="bar-hindu"><div class="text-wrapper" id="hindu"></div></div>
     <div class="bar antihindu" id="bar-antihindu"><div class="text-wrapper" id="antihindu"></div></div>
     <img id="img-antihindu" src="value_images/antihindu.svg" height="128pt"/>
 </div>
-<h2><span class="weight-300" id="g-label"></span></h2>
+<h2><span class="weight-300" id="h-label"></span></h2>
 <div class="axis">
     <img id="img-pagan" src="value_images/pagan.svg" height="128pt"/>
     <div class="bar pagan" id="bar-pagan"><div class="text-wrapper" id="pagan"></div></div>
@@ -107,6 +107,7 @@
     }
 
     function setBarValue(name, value) {
+        var roundedValue = Math.round(value * 10) / 10;
         innerel = document.getElementById(name)
         outerel = document.getElementById("bar-" + name)
         outerel.style.width = (value + "%")
@@ -172,9 +173,6 @@
     setBarValue("antipagan", h2)
     setBarValue("religious", i1)
     setBarValue("atheistic", i2)
-    
-    console.log("Ideologies count:", ideologies.length);
-    console.log("URL parameters - i:", i1);
 
     document.getElementById("a-label").innerHTML = setLabel(a, 0)
     document.getElementById("b-label").innerHTML = setLabel(b, 1)
