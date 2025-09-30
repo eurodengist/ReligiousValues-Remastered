@@ -92,8 +92,8 @@
 
 <br><br>
 
-<canvas id="banner" width=800 height=1500 style="font-family:Noto+Sans+Mono"></canvas>
-<button class="button" onclick="downloadCanvas()" style="background-color: #4CAF50; margin-bottom: 5px;">Download Image</button>
+<img id="banner-image" src="" alt="Results">
+<canvas id="banner" width=800 height=1500 style="display:none;"></canvas>
 <button class="button" onclick="location.href='index.html';" style="background-color: #333;">Back</button> <br>
 <script>
     function getQueryVariable(variable)
@@ -216,258 +216,166 @@
         }
     }
 
-    ffunction downloadCanvas() {
-    try {
-        // Перерисовываем canvas перед скачиванием
-        drawCanvas();
+    window.onload = function() {
+        var c = document.getElementById("banner")
+        var ctx = c.getContext("2d")
+        ctx.fillStyle = "#777"
+        ctx.fillRect(0,0,800,1500)
+
+        img = document.getElementById("img-catholic")
+        ctx.drawImage(img, 20, 120, 100, 100);
+        img = document.getElementById("img-anticatholic")
+        ctx.drawImage(img, 680, 120, 100, 100)
+        img = document.getElementById("img-protestant")
+        ctx.drawImage(img, 20, 240, 100, 100)
+        img = document.getElementById("img-antiprotestant")
+        ctx.drawImage(img, 680, 240, 100, 100)
+        img = document.getElementById("img-orthodox")
+        ctx.drawImage(img, 20, 360, 100, 100)
+        img = document.getElementById("img-antiorthodox")
+        ctx.drawImage(img, 680, 360, 100, 100)
+        img = document.getElementById("img-judaic")
+        ctx.drawImage(img, 20, 480, 100, 100)
+        img = document.getElementById("img-antijudaic")
+        ctx.drawImage(img, 680, 480, 100, 100)
+        img = document.getElementById("img-sunni")
+        ctx.drawImage(img, 20, 600, 100, 100)
+        img = document.getElementById("img-antisunni")
+        ctx.drawImage(img, 680, 600, 100, 100)
+        img = document.getElementById("img-shia")
+        ctx.drawImage(img, 20, 720, 100, 100)
+        img = document.getElementById("img-antishia")
+        ctx.drawImage(img, 680, 720, 100, 100)
+        img = document.getElementById("img-buddhist")
+        ctx.drawImage(img, 20, 840, 100, 100)
+        img = document.getElementById("img-antibuddhist")
+        ctx.drawImage(img, 680, 840, 100, 100)
+        img = document.getElementById("img-hindu")
+        ctx.drawImage(img, 20, 960, 100, 100)
+        img = document.getElementById("img-antihindu")
+        ctx.drawImage(img, 680, 960, 100, 100)
+        img = document.getElementById("img-pagan")
+        ctx.drawImage(img, 20, 1080, 100, 100)
+        img = document.getElementById("img-antipagan")
+        ctx.drawImage(img, 680, 1080, 100, 100)
+        img = document.getElementById("img-religious")
+        ctx.drawImage(img, 20, 1200, 100, 100)
+        img = document.getElementById("img-atheistic")
+        ctx.drawImage(img, 680, 1200, 100, 100)
+
+
+        ctx.fillStyle="#222"
+        ctx.fillRect(120, 130, 560, 80)
+        ctx.fillRect(120, 250, 560, 80)
+        ctx.fillRect(120, 370, 560, 80)
+        ctx.fillRect(120, 490, 560, 80)
+        ctx.fillRect(120, 610, 560, 80)
+        ctx.fillRect(120, 730, 560, 80)
+        ctx.fillRect(120, 850, 560, 80)
+        ctx.fillRect(120, 970, 560, 80)
+        ctx.fillRect(120, 1090, 560, 80)
+        ctx.fillRect(120, 1210, 560, 80)
+        ctx.fillStyle="#ffcc00"
+        ctx.fillRect(120, 134, 5.6*a-2, 72)
+        ctx.fillStyle="#806600"
+        ctx.fillRect(682-5.6*a2, 134, 5.6*a2-2, 72)
+        ctx.fillStyle="#87cdde"
+        ctx.fillRect(120, 254, 5.6*b-2, 72)
+        ctx.fillStyle="#0088aa"
+        ctx.fillRect(682-5.6*b2, 254, 5.6*b2-2, 72)
+        ctx.fillStyle="#660080"
+        ctx.fillRect(120, 374, 5.6*(100-c2)-2, 72)
+        ctx.fillStyle="#3c0b49"
+        ctx.fillRect(682-5.6*c2, 374, 5.6*c2-2, 72)
+        ctx.fillStyle="#214478" 
+        ctx.fillRect(120, 494, 5.6*d-2, 72)
+        ctx.fillStyle="#00112b"
+        ctx.fillRect(682-5.6*d2, 494, 5.6*d2-2, 72)
+        ctx.fillStyle="#008033"
+        ctx.fillRect(120, 614, 5.6*e-2, 72)
+        ctx.fillStyle="#165016"
+        ctx.fillRect(682-5.6*e2, 614, 5.6*e2-2, 72)
+        ctx.fillStyle="#a02c2c"
+        ctx.fillRect(120, 734, 5.6*f-2, 72)
+        ctx.fillStyle="#550000"
+        ctx.fillRect(682-5.6*f2, 734, 5.6*f2-2, 72)
+        ctx.fillStyle="#ffaacc"
+        ctx.fillRect(120, 854, 5.6*x-2, 72)
+        ctx.fillStyle="#800033"
+        ctx.fillRect(682-5.6*x2, 854, 5.6*x2-2, 72)
+        ctx.fillStyle="#ff6600"
+        ctx.fillRect(120, 974, 5.6*g-2, 72)
+        ctx.fillStyle="#94430d"
+        ctx.fillRect(682-5.6*g2, 974, 5.6*g2-2, 72)
+        ctx.fillStyle="#6c6753" 
+        ctx.fillRect(120, 1094, 5.6*h-2, 72)
+        ctx.fillStyle="#484537"
+        ctx.fillRect(682-5.6*h2, 1094, 5.6*h2-2, 72)
+        ctx.fillStyle="#ffffff"
+        ctx.fillRect(120, 1214, 5.6*i1-2, 72)
+        ctx.fillStyle="#333333" 
+        ctx.fillRect(682-5.6*i2, 1214, 5.6*i2-2, 72)
+        ctx.fillStyle="#222222"
+        ctx.font="700 30px Bebas Neue"
+        ctx.textAlign="left"
+        ctx.fillText("Version 1.0", 20, 100)
+        ctx.fillStyle="#222222"
+        ctx.font="700 30px Bebas Neue"
+        ctx.textAlign="right"
+        ctx.fillText("30/09/25", 780, 100)
+        ctx.fillStyle="#000"
+        ctx.font="700 45px Bebas Neue"
+        ctx.textAlign="center"
+        ctx.fillText("ReligiousValues Remastered", 400, 60)
+        ctx.font="700 60px Roboto"
+        ctx.textAlign="center"
+        ctx.fillText(ideology, 400, 1390)
+        ctx.font="700 20px Roboto"
+        ctx.textAlign="center"
+        ctx.fillText("Closest Match:", 400, 1330)
+        ctx.font="700 30px Roboto"
+        ctx.textAlign="center"
+        ctx.fillText("eurodengist.github.io/ReligiousValues-Remastered/", 400, 1450)
         
-        var canvas = document.getElementById('banner');
-        var image = canvas.toDataURL('image/png');
-        
-        var link = document.createElement('a');
-        link.download = 'religious-values-result.png';
-        link.href = image;
-        
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        
-    } 
-    catch (error) {
-        console.error('Error downloading image:', error);
-        alert('Error downloading image. Please try again.');
+        ctx.font="50px Roboto"
+        ctx.textAlign="left"
+        if (a  > 40) {ctx.fillText(a + "%", 130, 187.5)}
+        if (b  > 40) {ctx.fillText(b + "%", 130, 307.5)}
+        if ((100-c2)   > 40) {ctx.fillText((100-c2) + "%", 130, 427.5)}
+        if (d  > 40) {ctx.fillText(d + "%", 130, 547.5)}
+        if (e  > 40) {ctx.fillText(e + "%", 130, 667.5)}
+        if (f  > 40) {ctx.fillText(f + "%", 130, 787.5)}
+        if (x  > 40) {ctx.fillText(x + "%", 130, 907.5)}
+        if (g  > 40) {ctx.fillText(g + "%", 130, 1027.5)}
+        if (h  > 40) {ctx.fillText(h + "%", 130, 1147.5)}
+        if (i1 > 40) {ctx.fillText(i1 + "%", 130, 1267.5)}
+        ctx.textAlign="right"
+        if (a2 > 40) {ctx.fillText(a2 + "%", 670, 187.5)}
+        if (b2 > 40) {ctx.fillText(b2 + "%", 670, 307.5)}
+        if (c2 > 40) {ctx.fillText(c2 + "%", 670, 427.5)}
+        if (d2 > 40) {ctx.fillText(d2 + "%", 670, 547.5)}
+        if (e2 > 40) {ctx.fillText(e2 + "%", 670, 667.5)}
+        if (f2 > 40) {ctx.fillText(f2 + "%", 670, 787.5)}
+        if (x2 > 40) {ctx.fillText(x2 + "%", 670, 907.5)}
+        if (g2 > 40) {ctx.fillText(g2 + "%", 670, 1027.5)}
+        if (h2 > 40) {ctx.fillText(h2 + "%", 670, 1147.5)}
+        if (i2 > 40) {ctx.fillText(i2 + "%", 670, 1267.5)}
+
+        ctx.font="300 30px Roboto"
+        ctx.textAlign="center"
+        ctx.fillText(document.getElementById("a-label").innerHTML, 400, 125)
+        ctx.fillText(document.getElementById("b-label").innerHTML, 400, 245)
+        ctx.fillText(document.getElementById("c-label").innerHTML, 400, 365)
+        ctx.fillText(document.getElementById("d-label").innerHTML, 400, 485)
+        ctx.fillText(document.getElementById("e-label").innerHTML, 400, 605)
+        ctx.fillText(document.getElementById("f-label").innerHTML, 400, 725)
+        ctx.fillText(document.getElementById("x-label").innerHTML, 400, 845)
+        ctx.fillText(document.getElementById("g-label").innerHTML, 400, 965)
+        ctx.fillText(document.getElementById("h-label").innerHTML, 400, 1085)
+        ctx.fillText(document.getElementById("i-label").innerHTML, 400, 1205)
+
+        document.getElementById("banner-image").src = c.toDataURL();
     }
-}
-
-
-    function drawCanvas() {
-        var c = document.getElementById("banner");
-        var ctx = c.getContext("2d");
-        ctx.fillStyle = "#777";
-        ctx.fillRect(0,0,800,1500);
-
-            var imgCatholic = document.getElementById("img-catholic");
-            var imgAntiCatholic = document.getElementById("img-anticatholic");
-            var imgProtestant = document.getElementById("img-protestant");
-            var imgAntiProtestant = document.getElementById("img-antiprotestant");
-            var imgOrthodox = document.getElementById("img-orthodox");
-            var imgAntiOrthodox = document.getElementById("img-antiorthodox");
-            var imgJudaic = document.getElementById("img-judaic");
-            var imgAntiJudaic = document.getElementById("img-antijudaic");
-            var imgSunni = document.getElementById("img-sunni");
-            var imgAntiSunni = document.getElementById("img-antisunni");
-            var imgShia = document.getElementById("img-shia");
-            var imgAntiShia = document.getElementById("img-antishia");
-            var imgBuddhist = document.getElementById("img-buddhist");
-            var imgAntiBuddhist = document.getElementById("img-antibuddhist");
-            var imgHindu = document.getElementById("img-hindu");
-            var imgAntiHindu = document.getElementById("img-antihindu");
-            var imgPagan = document.getElementById("img-pagan");
-            var imgAntiPagan = document.getElementById("img-antipagan");
-            var imgReligious = document.getElementById("img-religious");
-            var imgAtheistic = document.getElementById("img-atheistic");
-
-            ctx.drawImage(imgCatholic, 20, 120, 100, 100);
-            ctx.drawImage(imgAntiCatholic, 680, 120, 100, 100);
-            ctx.drawImage(imgProtestant, 20, 240, 100, 100);
-            ctx.drawImage(imgAntiProtestant, 680, 240, 100, 100);
-            ctx.drawImage(imgOrthodox, 20, 360, 100, 100);
-            ctx.drawImage(imgAntiOrthodox, 680, 360, 100, 100);
-            ctx.drawImage(imgJudaic, 20, 480, 100, 100);
-            ctx.drawImage(imgAntiJudaic, 680, 480, 100, 100);
-            ctx.drawImage(imgSunni, 20, 600, 100, 100);
-            ctx.drawImage(imgAntiSunni, 680, 600, 100, 100);
-            ctx.drawImage(imgShia, 20, 720, 100, 100);
-            ctx.drawImage(imgAntiShia, 680, 720, 100, 100);
-            ctx.drawImage(imgBuddhist, 20, 840, 100, 100);
-            ctx.drawImage(imgAntiBuddhist, 680, 840, 100, 100);
-            ctx.drawImage(imgHindu, 20, 960, 100, 100);
-            ctx.drawImage(imgAntiHindu, 680, 960, 100, 100);
-            ctx.drawImage(imgPagan, 20, 1080, 100, 100);
-            ctx.drawImage(imgAntiPagan, 680, 1080, 100, 100);
-            ctx.drawImage(imgReligious, 20, 1200, 100, 100);
-            ctx.drawImage(imgAtheistic, 680, 1200, 100, 100);
-
-            ctx.fillStyle="#222";
-            ctx.fillRect(120, 130, 560, 80);
-            ctx.fillRect(120, 250, 560, 80);
-            ctx.fillRect(120, 370, 560, 80);
-            ctx.fillRect(120, 490, 560, 80);
-            ctx.fillRect(120, 610, 560, 80);
-            ctx.fillRect(120, 730, 560, 80);
-            ctx.fillRect(120, 850, 560, 80);
-            ctx.fillRect(120, 970, 560, 80);
-            ctx.fillRect(120, 1090, 560, 80);
-            ctx.fillRect(120, 1210, 560, 80);
-            
-            ctx.fillStyle="#ffcc00";
-            ctx.fillRect(120, 134, 5.6*a-2, 72);
-            ctx.fillStyle="#806600";
-            ctx.fillRect(682-5.6*a2, 134, 5.6*a2-2, 72);
-        }
-
-        window.onload = function() {
-            drawCanvas();
-        }
-
-            window.onload = function() {
-                var c = document.getElementById("banner")
-                var ctx = c.getContext("2d")
-                ctx.fillStyle = "#777"
-                ctx.fillRect(0,0,800,1500)
-
-                img = document.getElementById("img-catholic")
-                ctx.drawImage(img, 20, 120, 100, 100);
-                img = document.getElementById("img-anticatholic")
-                ctx.drawImage(img, 680, 120, 100, 100)
-                img = document.getElementById("img-protestant")
-                ctx.drawImage(img, 20, 240, 100, 100)
-                img = document.getElementById("img-antiprotestant")
-                ctx.drawImage(img, 680, 240, 100, 100)
-                img = document.getElementById("img-orthodox")
-                ctx.drawImage(img, 20, 360, 100, 100)
-                img = document.getElementById("img-antiorthodox")
-                ctx.drawImage(img, 680, 360, 100, 100)
-                img = document.getElementById("img-judaic")
-                ctx.drawImage(img, 20, 480, 100, 100)
-                img = document.getElementById("img-antijudaic")
-                ctx.drawImage(img, 680, 480, 100, 100)
-                img = document.getElementById("img-sunni")
-                ctx.drawImage(img, 20, 600, 100, 100)
-                img = document.getElementById("img-antisunni")
-                ctx.drawImage(img, 680, 600, 100, 100)
-                img = document.getElementById("img-shia")
-                ctx.drawImage(img, 20, 720, 100, 100)
-                img = document.getElementById("img-antishia")
-                ctx.drawImage(img, 680, 720, 100, 100)
-                img = document.getElementById("img-buddhist")
-                ctx.drawImage(img, 20, 840, 100, 100)
-                img = document.getElementById("img-antibuddhist")
-                ctx.drawImage(img, 680, 840, 100, 100)
-                img = document.getElementById("img-hindu")
-                ctx.drawImage(img, 20, 960, 100, 100)
-                img = document.getElementById("img-antihindu")
-                ctx.drawImage(img, 680, 960, 100, 100)
-                img = document.getElementById("img-pagan")
-                ctx.drawImage(img, 20, 1080, 100, 100)
-                img = document.getElementById("img-antipagan")
-                ctx.drawImage(img, 680, 1080, 100, 100)
-                img = document.getElementById("img-religious")
-                ctx.drawImage(img, 20, 1200, 100, 100)
-                img = document.getElementById("img-atheistic")
-                ctx.drawImage(img, 680, 1200, 100, 100)
-
-
-                ctx.fillStyle="#222"
-                ctx.fillRect(120, 130, 560, 80)
-                ctx.fillRect(120, 250, 560, 80)
-                ctx.fillRect(120, 370, 560, 80)
-                ctx.fillRect(120, 490, 560, 80)
-                ctx.fillRect(120, 610, 560, 80)
-                ctx.fillRect(120, 730, 560, 80)
-                ctx.fillRect(120, 850, 560, 80)
-                ctx.fillRect(120, 970, 560, 80)
-                ctx.fillRect(120, 1090, 560, 80)
-                ctx.fillRect(120, 1210, 560, 80)
-                ctx.fillStyle="#ffcc00"
-                ctx.fillRect(120, 134, 5.6*a-2, 72)
-                ctx.fillStyle="#806600"
-                ctx.fillRect(682-5.6*a2, 134, 5.6*a2-2, 72)
-                ctx.fillStyle="#87cdde"
-                ctx.fillRect(120, 254, 5.6*b-2, 72)
-                ctx.fillStyle="#0088aa"
-                ctx.fillRect(682-5.6*b2, 254, 5.6*b2-2, 72)
-                ctx.fillStyle="#660080"
-                ctx.fillRect(120, 374, 5.6*(100-c2)-2, 72)
-                ctx.fillStyle="#3c0b49"
-                ctx.fillRect(682-5.6*c2, 374, 5.6*c2-2, 72)
-                ctx.fillStyle="#214478" 
-                ctx.fillRect(120, 494, 5.6*d-2, 72)
-                ctx.fillStyle="#00112b"
-                ctx.fillRect(682-5.6*d2, 494, 5.6*d2-2, 72)
-                ctx.fillStyle="#008033"
-                ctx.fillRect(120, 614, 5.6*e-2, 72)
-                ctx.fillStyle="#165016"
-                ctx.fillRect(682-5.6*e2, 614, 5.6*e2-2, 72)
-                ctx.fillStyle="#a02c2c"
-                ctx.fillRect(120, 734, 5.6*f-2, 72)
-                ctx.fillStyle="#550000"
-                ctx.fillRect(682-5.6*f2, 734, 5.6*f2-2, 72)
-                ctx.fillStyle="#ffaacc"
-                ctx.fillRect(120, 854, 5.6*x-2, 72)
-                ctx.fillStyle="#800033"
-                ctx.fillRect(682-5.6*x2, 854, 5.6*x2-2, 72)
-                ctx.fillStyle="#ff6600"
-                ctx.fillRect(120, 974, 5.6*g-2, 72)
-                ctx.fillStyle="#94430d"
-                ctx.fillRect(682-5.6*g2, 974, 5.6*g2-2, 72)
-                ctx.fillStyle="#6c6753" 
-                ctx.fillRect(120, 1094, 5.6*h-2, 72)
-                ctx.fillStyle="#484537"
-                ctx.fillRect(682-5.6*h2, 1094, 5.6*h2-2, 72)
-                ctx.fillStyle="#ffffff"
-                ctx.fillRect(120, 1214, 5.6*i1-2, 72)
-                ctx.fillStyle="#333333" 
-                ctx.fillRect(682-5.6*i2, 1214, 5.6*i2-2, 72)
-                ctx.fillStyle="#222222"
-                ctx.font="700 30px Bebas Neue"
-                ctx.textAlign="left"
-                ctx.fillText("Version 1.0", 20, 100)
-                ctx.fillStyle="#222222"
-                ctx.font="700 30px Bebas Neue"
-                ctx.textAlign="right"
-                ctx.fillText("30/09/25", 780, 100)
-                ctx.fillStyle="#000"
-                ctx.font="700 45px Bebas Neue"
-                ctx.textAlign="center"
-                ctx.fillText("ReligiousValues Remastered", 400, 60)
-                ctx.font="700 60px Roboto"
-                ctx.textAlign="center"
-                ctx.fillText(ideology, 400, 1390)
-                ctx.font="700 20px Roboto"
-                ctx.textAlign="center"
-                ctx.fillText("Closest Match:", 400, 1330)
-                ctx.font="700 30px Roboto"
-                ctx.textAlign="center"
-                ctx.fillText("eurodengist.github.io/ReligiousValues-Remastered/", 400, 1450)
-                
-                ctx.font="50px Roboto"
-                ctx.textAlign="left"
-                if (a  > 40) {ctx.fillText(a + "%", 130, 187.5)}
-                if (b  > 40) {ctx.fillText(b + "%", 130, 307.5)}
-                if ((100-c2)   > 40) {ctx.fillText((100-c2) + "%", 130, 427.5)}
-                if (d  > 40) {ctx.fillText(d + "%", 130, 547.5)}
-                if (e  > 40) {ctx.fillText(e + "%", 130, 667.5)}
-                if (f  > 40) {ctx.fillText(f + "%", 130, 787.5)}
-                if (x  > 40) {ctx.fillText(x + "%", 130, 907.5)}
-                if (g  > 40) {ctx.fillText(g + "%", 130, 1027.5)}
-                if (h  > 40) {ctx.fillText(h + "%", 130, 1147.5)}
-                if (i1 > 40) {ctx.fillText(i1 + "%", 130, 1267.5)}
-                ctx.textAlign="right"
-                if (a2 > 40) {ctx.fillText(a2 + "%", 670, 187.5)}
-                if (b2 > 40) {ctx.fillText(b2 + "%", 670, 307.5)}
-                if (c2 > 40) {ctx.fillText(c2 + "%", 670, 427.5)}
-                if (d2 > 40) {ctx.fillText(d2 + "%", 670, 547.5)}
-                if (e2 > 40) {ctx.fillText(e2 + "%", 670, 667.5)}
-                if (f2 > 40) {ctx.fillText(f2 + "%", 670, 787.5)}
-                if (x2 > 40) {ctx.fillText(x2 + "%", 670, 907.5)}
-                if (g2 > 40) {ctx.fillText(g2 + "%", 670, 1027.5)}
-                if (h2 > 40) {ctx.fillText(h2 + "%", 670, 1147.5)}
-                if (i2 > 40) {ctx.fillText(i2 + "%", 670, 1267.5)}
-
-                ctx.font="300 30px Roboto"
-                ctx.textAlign="center"
-                ctx.fillText(document.getElementById("a-label").innerHTML, 400, 125)
-                ctx.fillText(document.getElementById("b-label").innerHTML, 400, 245)
-                ctx.fillText(document.getElementById("c-label").innerHTML, 400, 365)
-                ctx.fillText(document.getElementById("d-label").innerHTML, 400, 485)
-                ctx.fillText(document.getElementById("e-label").innerHTML, 400, 605)
-                ctx.fillText(document.getElementById("f-label").innerHTML, 400, 725)
-                ctx.fillText(document.getElementById("x-label").innerHTML, 400, 845)
-                ctx.fillText(document.getElementById("g-label").innerHTML, 400, 965)
-                ctx.fillText(document.getElementById("h-label").innerHTML, 400, 1085)
-                ctx.fillText(document.getElementById("i-label").innerHTML, 400, 1205)
-            }
     </script>
 
 </body>
