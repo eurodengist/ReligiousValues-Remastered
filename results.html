@@ -166,13 +166,15 @@
     setBarValue("antishia", f2)
     setBarValue("buddhist", x)
     setBarValue("antibuddhist", x2)
-    setBarValue("prohindu", g)
+    setBarValue("hindu", g)
     setBarValue("antihindu", g2)
     setBarValue("pagan", h)
     setBarValue("antipagan", h2)
     setBarValue("religious", i1)
     setBarValue("atheistic", i2)
     
+    console.log("Ideologies count:", ideologies.length);
+    console.log("URL parameters - i:", i1);
 
     document.getElementById("a-label").innerHTML = setLabel(a, 0)
     document.getElementById("b-label").innerHTML = setLabel(b, 1)
@@ -198,7 +200,7 @@
         dist += Math.pow(Math.abs(ideologies[i].stats.x - x), 3)
         dist += Math.pow(Math.abs(ideologies[i].stats.g - g), 3)
         dist += Math.pow(Math.abs(ideologies[i].stats.h - h), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.i - i), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.i - i1), 2)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
@@ -249,7 +251,7 @@
         ctx.drawImage(img, 20, 720, 100, 100)
         img = document.getElementById("img-antibuddhist")
         ctx.drawImage(img, 680, 720, 100, 100)
-        img = document.getElementById("img-prohindu")
+        img = document.getElementById("img-hindu")
         ctx.drawImage(img, 20, 840, 100, 100)
         img = document.getElementById("img-antihindu")
         ctx.drawImage(img, 680, 840, 100, 100)
