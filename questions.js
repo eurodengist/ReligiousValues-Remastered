@@ -1,10 +1,27 @@
 questions = [
+    // Christian
     {
-        "question": "I favour a Catholic Theocracy as a form of government.",
+        "question": "Jesus Christ is the only Lord God and Savior.",
         "effect": {
-            "a": 20,
-            "b": 0,
-            "c": 0,
+            "a": 10,
+            "b": 10,
+            "c": 10,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "x": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0
+        }
+    },
+    // Catholic
+    {
+        "question": "The Eucharist is not a symbol but truly the Body and Blood of Christ, substantially present.",
+        "effect": {
+            "a": 5,
+            "b": -5,
+            "c": 5,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -15,11 +32,11 @@ questions = [
         }
     },
     {
-        "question": "The Great Schism and its consequences have been a disaster for the human race.",
+        "question": "Sacred Tradition and Scripture form a single sacred deposit of the Word of God, with equal authority.",
         "effect": {
-            "a": 15,
-            "b": 0,
-            "c": 0,
+            "a": 5,
+            "b": -5,
+            "c": 5,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -30,11 +47,11 @@ questions = [
         }
     },
     {
-        "question": "I would not support a leader who is not Catholic.",
+        "question": "The saints in Heaven offer prayers to God on our behalf, and it is good and profitable to ask for them.",
         "effect": {
-            "a": 15,
-            "b": 0,
-            "c": 0,
+            "a": 5,
+            "b": -5,
+            "c": 5,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -48,8 +65,8 @@ questions = [
         "question": "Mary is the mother of God.",
         "effect": {
             "a": 10,
-            "b": 0,
-            "c": 0,
+            "b": -10,
+            "c": 10,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -60,11 +77,11 @@ questions = [
         }
     },
     {
-        "question": "The only legitimate way to reverse a marriage is to have it annulled by the Catholic Church.",
+        "question": "The Pope's definitive teachings on faith and morals are preserved from error by the Holy Spirit.",
         "effect": {
             "a": 10,
-            "b": 0,
-            "c": 0,
+            "b": -5,
+            "c": -5,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -75,10 +92,10 @@ questions = [
         }
     },
     {
-        "question": "If a woman wants a position in the Church, she may become a nun.",
+        "question": "Jesus was the founder of the Catholic Church.",
         "effect": {
-            "a": 5,
-            "b": 0,
+            "a": 10,
+            "b": -5,
             "c": 0,
             "d": 0,
             "e": 0,
@@ -89,27 +106,13 @@ questions = [
             "i": 0
         }
     },
+    // Protestant
     {
-        "question": "The Pope's authority is illegitimate.",
-        "effect": {
-            "a": -5,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "People do not need to attend Catholic Mass every week.",
+        "question": "Every believer has direct access to God through Christ and does not require a human priestly mediator.",
         "effect": {
             "a": -5,
-            "b": 0,
-            "c": 0,
+            "b": 10,
+            "c": -5,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -120,86 +123,11 @@ questions = [
         }
     },
     {
-        "question": "The fall of the Papal States was a good thing.",
+        "question": "Martin Luther was a righteous man opressed by a corrupt and evil authority.",
         "effect": {
-            "a": -10,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Purgatory is not a real place.",
-        "effect": {
-            "a": -15,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Jesus was not the founder of the Catholic Church.",
-        "effect": {
-            "a": -20,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Adherents to Catholicism are evil.",
-        "effect": {
-            "a": -20,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "I favour Protestant Theocracy as a form of government.",
-        "effect": {
-            "a": 0,
-            "b": 20,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Martin Luther was a noble man opressed by a corrupt and evil authority.",
-        "effect": {
-            "a": 0,
-            "b": 20,
-            "c": 0,
+            "a": -5,
+            "b": 10,
+            "c": 5,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -213,7 +141,7 @@ questions = [
         "question": "Salvation is by faith, grace and Christ alone.",
         "effect": {
             "a": 0,
-            "b": 15,
+            "b": 5,
             "c": 0,
             "d": 0,
             "e": 0,
@@ -225,26 +153,11 @@ questions = [
         }
     },
     {
-        "question": "All believers should be able to attain priesthood or an equivalent position.",
+        "question": "Scripture alone is the ultimate and infallible authority for Christian faith and practice.",
         "effect": {
-            "a": 0,
+            "a": -5,
             "b": 10,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "I believe in the Doctrine of Sola Scriptura.",
-        "effect": {
-            "a": 0,
-            "b": 10,
-            "c": 0,
+            "c": -5,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -270,131 +183,11 @@ questions = [
         }
     },
     {
-        "question": "Protestantism misinterprets much of the Bible.",
+        "question": "The primary purpose of water baptism is as a public sign of faith, not as a channel of regenerating grace.",
         "effect": {
-            "a": 0,
-            "b": -10,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "The personal relationship of the believer to God is not the most important relationship to God.",
-        "effect": {
-            "a": 0,
-            "b": -10,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Protestant Evangelism is dangerous.",
-        "effect": {
-            "a": 0,
-            "b": -15,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Modern Protestantism is only nominally Christian.",
-        "effect": {
-            "a": 0,
-            "b": -20,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Adherents to Protestant Christianity are evil.",
-        "effect": {
-            "a": 0,
-            "b": -20,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "I favour Eastern Orthodox Christian Theocracy as a form of government",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 20,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Palamite theology is correct.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 20,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "The essence of God trascends the energies of God to an infinite degree.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 20,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "God is triune.",
-        "effect": {
-            "a": 10,
+            "a": -5,
             "b": 10,
-            "c": 10,
+            "c": -5,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -404,10 +197,11 @@ questions = [
             "i": 0
         }
     },
+    // Orthodox
     {
-        "question": "The Filioque is heresy.",
+        "question": "God's essence is wholly unknowable, but we can experience His divine energies through which He acts in the world.",
         "effect": {
-            "a": -15,
+            "a": 0,
             "b": 0,
             "c": 10,
             "d": 0,
@@ -420,7 +214,37 @@ questions = [
         }
     },
     {
-        "question": "The Bishop of Rome should not have authority over the entire church.",
+        "question": "Icons are necessary windows to heaven.",
+        "effect": {
+            "a": 5,
+            "b": -5,
+            "c": 10,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "x": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0
+        }
+    },
+    {
+        "question": "The Holy Spirit proceeds from the Father alone.",
+        "effect": {
+            "a": -5,
+            "b": 0,
+            "c": 5,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "x": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0
+        }
+    },
+    {
+        "question": "After death, souls undergo a process of purification and growth, not a punishment.",
         "effect": {
             "a": -5,
             "b": 0,
@@ -435,11 +259,11 @@ questions = [
         }
     },
     {
-        "question": "Hesychasm is false and heretical.",
+        "question": "True mystical knowledge of God comes through a direct experience of His divine energies.",
         "effect": {
             "a": 0,
             "b": 0,
-            "c": -15,
+            "c": 10,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -450,11 +274,11 @@ questions = [
         }
     },
     {
-        "question": "God is etirely immutable.",
+        "question": "The local church, gathered for Eucharist with its bishop, is the true and complete manifestation of the Church.",
         "effect": {
             "a": 0,
-            "b": 0,
-            "c": -10,
+            "b": 5,
+            "c": 5,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -464,133 +288,14 @@ questions = [
             "i": 0
         }
     },
-    {
-        "question": "I have significant theological issues with Eastern Orthodoxy.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": -12,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "The authority of the Eastern Patriarchs is illegitimate.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": -15,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Members of the Eastern Orthodox Church are evil.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": -20,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
+    // Judaism
     {
         "question": "God's covenant with the Jews is still in affect.",
         "effect": {
             "a": 0,
             "b": 0,
             "c": 0,
-            "d": 20,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "I favour a Jewish Theocracy as a form of government.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 20,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Israel's rightfull land spans from the Nile to the Euphraties.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 15,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Israel has a right to exist as a Jewish state.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
             "d": 10,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "For religious reasons, I support male circumsition.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 10,
-            "e": 10,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "The modern Jews are God's chosen people.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 15,
             "e": 0,
             "f": 0,
             "x": 0,
@@ -605,7 +310,7 @@ questions = [
             "a": 0,
             "b": 0,
             "c": 0,
-            "d": 15,
+            "d": 5,
             "e": 0,
             "f": 0,
             "x": 0,
@@ -615,12 +320,27 @@ questions = [
         }
     },
     {
-        "question": "Modern Judaism is ethnonationalism posing as a religion.",
+        "question": "Our good deeds and prayers help repair spiritual brokenness in the world.",
         "effect": {
             "a": 0,
             "b": 0,
             "c": 0,
-            "d": -12,
+            "d": 5,
+            "e": 0,
+            "f": 0,
+            "x": 5,
+            "g": 0,
+            "h": 0,
+            "i": 0
+        }
+    },
+       {
+        "question": "God is both infinitely beyond our understanding and intimately present within creation.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 5,
             "e": 0,
             "f": 0,
             "x": 0,
@@ -629,13 +349,28 @@ questions = [
             "i": 0
         }
     },
-    {
-        "question": "Jews are the Synagogue of Satan.",
+       {
+        "question": "The human soul is a divine spark, and our life's purpose is to return it to its source.",
         "effect": {
             "a": 0,
             "b": 0,
             "c": 0,
-            "d": -15,
+            "d": 10,
+            "e": 0,
+            "f": 0,
+            "x": 0,
+            "g": 5,
+            "h": 0,
+            "i": 0
+        }
+    },
+       {
+        "question": "Every person has a unique soul and a unique purpose that only they can fulfill.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 10,
             "e": 0,
             "f": 0,
             "x": 0,
@@ -644,165 +379,16 @@ questions = [
             "i": 0
         }
     },
+    // Islam together
     {
-        "question": "The Jews (religion, not race) are inherently evil and seek to destroy everything that is not Jewish.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": -20,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Jews do/will suffer for believing their false religion.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": -15,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "The Jews have deserved everything that has been done to them in the past 3500 years.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": -20,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "The destruction of the second temple was a good thing.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": -20,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Judaism is a false religion",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": -5,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "It would be better if the Jews abandoned their religion.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": -10,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Jesus is meerly a prophet.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 20,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Jerusalem should be a Muslim city.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 15,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Allah is the god of Abraham.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 20,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Mecca and Medina are holy cities.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 12,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "The kaaba is to be venerated.",
+        "question": "The Quran is the eternal and uncreated word of God.",
         "effect": {
             "a": 0,
             "b": 0,
             "c": 0,
             "d": 0,
             "e": 10,
-            "f": 0,
+            "f": 10,
             "x": 0,
             "g": 0,
             "h": 0,
@@ -810,14 +396,14 @@ questions = [
         }
     },
     {
-        "question": "Islam is not an inherently violent religion.",
+        "question": "Human beings are born in a natural state of purity and are responsible for their choices.",
         "effect": {
             "a": 0,
             "b": 0,
             "c": 0,
             "d": 0,
             "e": 10,
-            "f": 0,
+            "f": 10,
             "x": 0,
             "g": 0,
             "h": 0,
@@ -825,28 +411,29 @@ questions = [
         }
     },
     {
-        "question": "Sharia should govern the entire world.",
+        "question": "The primary purpose of humanity is to worship God and act as His stewards on Earth.",
         "effect": {
             "a": 0,
             "b": 0,
             "c": 0,
             "d": 0,
-            "e": 15,
-            "f": 0,
+            "e": 10,
+            "f": 10,
             "x": 0,
             "g": 0,
             "h": 0,
             "i": 0
         }
     },
+    // Sunni
     {
-        "question": "Islam is a heretical sect of Christianity.",
+        "question": "God's attributes are real and eternal, but we do not question 'how' they are.",
         "effect": {
             "a": 0,
             "b": 0,
             "c": 0,
             "d": 0,
-            "e": -12,
+            "e": 5,
             "f": 0,
             "x": 0,
             "g": 0,
@@ -855,13 +442,13 @@ questions = [
         }
     },
     {
-        "question": "Islam is a primitive religion.",
+        "question": "God will be seen by the believers in the afterlife, but not in a physical place or direction.",
         "effect": {
             "a": 0,
             "b": 0,
             "c": 0,
             "d": 0,
-            "e": -15,
+            "e": 5,
             "f": 0,
             "x": 0,
             "g": 0,
@@ -870,29 +457,30 @@ questions = [
         }
     },
     {
-        "question": "Cleansing the Earth of Islam should be a priority for the West.",
+        "question": "The leadership of the community (Caliph) does not need to be from the Prophet's family.",
         "effect": {
             "a": 0,
             "b": 0,
             "c": 0,
             "d": 0,
-            "e": -15,
-            "f": 0,
+            "e": 10,
+            "f": -10,
             "x": 0,
             "g": 0,
             "h": 0,
             "i": 0
         }
     },
+    // Shia
     {
-        "question": "Muhammad is not a prophet of the true god.",
+        "question": "The leadership of the community (Imam) does need to be from the Prophet's family.",
         "effect": {
             "a": 0,
             "b": 0,
             "c": 0,
             "d": 0,
             "e": -10,
-            "f": 0,
+            "f": 10,
             "x": 0,
             "g": 0,
             "h": 0,
@@ -900,112 +488,7 @@ questions = [
         }
     },
     {
-        "question": "The Quran is not the word of the true god.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": -10,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Muhammed is not a legitimate prophet.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": -15,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Poligamy is immoral",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": -15,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Desire is the cause of suffering.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 15,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Religious people must be open minded.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 15,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Many faiths have truths in them that are okay to pursue.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 20,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Reincarnation is real.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 12,
-            "x": 15,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Dualistic thought is harmful.",
+        "question": "The Imams are sinless and possess divinely granted knowledge, continuing the guidance after the Prophet.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1020,22 +503,23 @@ questions = [
         }
     },
     {
-        "question": "Buddhist theocracy is an ideal form of government.",
+        "question": "Visiting the shrines of Imams and seeking their intercession is a virtuous and rewarded act.",
         "effect": {
             "a": 0,
             "b": 0,
             "c": 0,
             "d": 0,
             "e": 0,
-            "f": 20,
+            "f": 5,
             "x": 0,
             "g": 0,
             "h": 0,
             "i": 0
         }
     },
+    // Dharmic together
     {
-        "question": "Hindu Theocracy is an ideal form of government.",
+        "question": "There is a continuous cycle of life and death.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1044,7 +528,22 @@ questions = [
             "e": 0,
             "f": 0,
             "x": 10,
-            "g": 0,
+            "g": 10,
+            "h": 0,
+            "i": 0
+        }
+    },
+    {
+        "question": "Reincarnation is real.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "x": 5,
+            "g": 10,
             "h": 0,
             "i": 0
         }
@@ -1058,44 +557,15 @@ questions = [
             "d": 0,
             "e": 0,
             "f": 0,
-            "x": 15,
-            "g": 0,
-            "h": 0,
+            "x": 5,
+            "g": 5,
+            "h": 5,
             "i": 0
         }
     },
+    // Buddhism
     {
-        "question": "There is a continuous cycle of life and death.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 15,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "I enjoy the spiritual/religious ascpect of yoga.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 7,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "The cow is a sacred creature.",
+        "question": "The root of suffering is craving and attachment, not the things themselves.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1110,7 +580,7 @@ questions = [
         }
     },
     {
-        "question": "Hindus are bad people.",
+        "question": "Enlightenment involves seeing the true nature of reality, not believing in a creator god.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1118,14 +588,14 @@ questions = [
             "d": 0,
             "e": 0,
             "f": 0,
-            "x": -10,
-            "g": 0,
+            "x": 10,
+            "g": -5,
             "h": 0,
             "i": 0
         }
     },
     {
-        "question": "Hinduism is a false religion.",
+        "question": "Mindfulness meditation is essential for understanding the nature of one's own mind.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1133,134 +603,15 @@ questions = [
             "d": 0,
             "e": 0,
             "f": 0,
-            "x": -15,
-            "g": 0,
+            "x": 10,
+            "g": 5,
             "h": 0,
             "i": 0
         }
     },
+    //Hindu
     {
-        "question": "The core tennants of Hinduism are evil.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": -12,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "All who do not attain oneness with all things are unenlightened.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 15,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Buddhism is a self-centered religion.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": -10,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Karma, in this life, is not real.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": -15,
-            "x": -15,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Buddhism is a nonsensical religion.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": -15,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "The doctrines of Buddhism are shrouded in vaguery because they are nonsensical.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": -15,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Life is not meerly suffering.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": -10,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Buddhists are evil.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": -20,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "There are many gods.",
+        "question": "The cow is a sacred creature.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1269,13 +620,13 @@ questions = [
             "e": 0,
             "f": 0,
             "x": 0,
-            "g": 20,
+            "g": 10,
             "h": 0,
             "i": 0
         }
     },
     {
-        "question": "Animals have an aspect of divinity.",
+        "question": "The divine can be worshipped equally in personal forms (like Vishnu or Shiva) and as a formless principle (Brahman).",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1284,13 +635,13 @@ questions = [
             "e": 0,
             "f": 0,
             "x": 0,
-            "g": 15,
+            "g": 10,
             "h": 0,
             "i": 0
         }
     },
     {
-        "question": "Abrahamic Religions and their consequences have been a disaster for the human race.",
+        "question": "All seemingly different paths and deities ultimately lead to the same divine reality.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1299,9 +650,55 @@ questions = [
             "e": 0,
             "f": 0,
             "x": 0,
-            "g": 15,
+            "g": 10,
             "h": 0,
-            "i": 10
+            "i": 0
+        }
+    },
+    // Pagan
+    {
+        "question": "Rituals and celebrations should align with the cycles of the seasons.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "x": 0,
+            "g": 0,
+            "h": 10,
+            "i": 0
+        }
+    },
+    {
+        "question": "The gods are distinct, individual beings, not aspects of a single deity.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "x": 0,
+            "g": -5,
+            "h": 10,
+            "i": 0
+        }
+    },
+    {
+        "question": "The world is inhabited by many local spirits of place.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "x": 0,
+            "g": 0,
+            "h": 10,
+            "i": 0
         }
     },
     {
@@ -1320,202 +717,7 @@ questions = [
         }
     },
     {
-        "question": "Christianity, Judaism and Islam are slave religions.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 15,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Christianity destroyed the Roman Empire.",
-        "effect": {
-            "a": -2,
-            "b": -2,
-            "c": -2,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 15,
-            "h": 0,
-            "i": -2
-        }
-    },
-    {
-        "question": "Pagan idols should be burned.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": -20,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Paganism is deplorable.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": -15,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "The worship of many gods should be punished.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": -15,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Ethnic religions are a ridiculous concept.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": -15,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Animal worship is evil.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": -15,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "The story of the Garden of Eden portrays the serpent as a hero.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 20,
-            "i": 0
-        }
-    },
-    {
-        "question": "Satanist theocracy is an ideal form of government.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 15,
-            "i": 0
-        }
-    },
-    {
-        "question": "Personal freedom is more valuable than even paradise",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 20,
-            "i": 0
-        }
-    },
-    {
-        "question": "No god should have authority over humanity.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 15,
-            "i": -7
-        }
-    },
-    {
-        "question": "'Demonic' things should be embraced.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 15,
-            "i": 0
-        }
-    },
-    {
-        "question": "Hell is preferable to heaven.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 12,
-            "i": 0
-        }
-    },
-    {
-        "question": "Implying he is real, the Christian Satan would deserve some sympathy.",
+        "question": "Fate is a powerful, impersonal force that even the gods must respect.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1530,7 +732,7 @@ questions = [
         }
     },
     {
-        "question": "I truly believe that Satan is real and that he is morally righteous",
+        "question": "Ancestors are worthy of veneration and can influence the lives of the living.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1540,222 +742,13 @@ questions = [
             "f": 0,
             "x": 0,
             "g": 0,
-            "h": 17,
+            "h": 10,
             "i": 0
         }
     },
+    // Atheism
     {
-        "question": "Satan is the embodyment of all that is evil and unjust.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": -10,
-            "i": 0
-        }
-    },
-    {
-        "question": "Devil worship is bad.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": -10,
-            "i": 0
-        }
-    },
-    {
-        "question": "The persecution of Satanists is a righteous cause.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": -15,
-            "i": 0
-        }
-    },
-    {
-        "question": "Satanism is uniquely evil.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": -20,
-            "i": 0
-        }
-    },
-    {
-        "question": "Satanists are bad people.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": -20,
-            "i": 0
-        }
-    },
-    {
-        "question": "Anyone is justified in killing any Satanist.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": -20,
-            "i": 0
-        }
-    },
-    {
-        "question": "I would prefer to live under the laws of other religions than under the laws of an atheist.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 12
-        }
-    },
-    {
-        "question": "So-called atheists are often the most superstitious people.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 15
-        }
-    },
-    {
-        "question": "Even agnosticism is deplorable and unacceptable.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 15
-        }
-    },
-    {
-        "question": "Atheism is deplorable.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 15
-        }
-    },
-    {
-        "question": "It is better to adhere to a religion than to be an atheist.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 10
-        }
-    },
-    {
-        "question": "I am religious.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 10
-        }
-    },
-    {
-        "question": "Not everything is about material conditions.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 15
-        }
-    },
-    {
-        "question": "There is real wisdom contained within the doctrines of some, or many religions that atheists ignorantly reject.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 15
-        }
-    },
-    {
-        "question": "Only a godless life can allow someone to live honestly.",
+        "question": "The universe and all natural phenomena can be explained without invoking a supernatural creator.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1770,37 +763,7 @@ questions = [
         }
     },
     {
-        "question": "Religion should be illegal.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": -20
-        }
-    },
-    {
-        "question": "There is no objective morality.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": -15
-        }
-    },
-    {
-        "question": "Prosperity will only come in the rejection of all that is spiritual.",
+        "question": "Morality is a evolved human trait for social cooperation, not a set of rules from a divine authority.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1815,7 +778,7 @@ questions = [
         }
     },
     {
-        "question": "I do not believe in souls, or an equivalent concept.",
+        "question": "The emergence of life on Earth is explained by abiogenesis and natural chemical processes.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1826,11 +789,11 @@ questions = [
             "x": 0,
             "g": 0,
             "h": 0,
-            "i": -15
+            "i": -5
         }
     },
     {
-        "question": "There is nothing after death.",
+        "question": "The existence of widespread suffering and evil is incompatible with an all-powerful, all-good deity.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1841,157 +804,52 @@ questions = [
             "x": 0,
             "g": 0,
             "h": 0,
-            "i": -20
+            "i": -5
         }
     },
     {
-        "question": "Many of the Popes were viruous men.",
+        "question": "Sacred texts are human-made products of their time, containing scientific and historical errors.",
         "effect": {
-            "a": 20,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
+            "a": -5,
+            "b": -5,
+            "c": -5,
+            "d": -5,
+            "e": -5,
+            "f": -5,
             "x": 0,
-            "g": 0,
+            "g": -5,
             "h": 0,
-            "i": 0
+            "i": -10
         }
     },
     {
-        "question": "Martin Luther was a virtuous man.",
+        "question": "Prayer has no measurable effect on physical reality outside of the psychological impact on the believer.",
         "effect": {
-            "a": 0,
-            "b": 20,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
+            "a": -5,
+            "b": -5,
+            "c": -5,
+            "d": -5,
+            "e": -5,
+            "f": -5,
+            "x": -5,
+            "g": -5,
+            "h": -5,
+            "i": -10
         }
     },
     {
-        "question": "Many of the Patriarchs of Eastern Europe were viruous men.",
+        "question": "God does not exist.",
         "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 20,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
+            "a": -5,
+            "b": -5,
+            "c": -5,
+            "d": -5,
+            "e": -5,
+            "f": -5,
+            "x": 5,
+            "g": -5,
+            "h": -5,
+            "i": -10
         }
-    },
-    {
-        "question": "Abraham, Isaac and Jacob were viruous men.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 20,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Muhammad was a viruous man.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 20,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Gautama Buddha was a viruous man.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 20,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "It is virtuous to venerate pagan idols.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 20,
-            "h": 0,
-            "i": 0
-        }
-    },
-    {
-        "question": "Satan is/was virtuous in his conduct.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 20,
-            "i": 0
-        }
-    },
-    {
-        "question": "It is virtuous to adhere to a religion.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "x": 0,
-            "g": 0,
-            "h": 0,
-            "i": 20
-        }
-    },
-        {
-        "question": "The Hindu gods represent peace and virtue.",
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "x": 20,
-            "f": 0,
-            "g": 0,
-            "h": 0,
-            "i": 0
-        }
-    },
+    }
 ];
