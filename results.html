@@ -373,6 +373,14 @@
         ctx.fillText(document.getElementById("h-label").innerHTML, 400, 1085)
         ctx.fillText(document.getElementById("i-label").innerHTML, 400, 1205)
     }
+
+    function downloadImage() {
+        var link = document.createElement('a');
+        link.download = 'religious-values.png';
+        link.href = document.getElementById('banner').toDataURL();
+        link.click();
+    }
+    
     </script>
 
 </body>
