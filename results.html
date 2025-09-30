@@ -189,16 +189,16 @@
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.cath - a), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.prot - b), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.orth - c), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.jews - d), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.islm - e), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.budd - f), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.hind - x), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.pagn - g), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.satn - h), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.athe - i), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.a - a), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.b - b), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.c - c), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.d - d), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.e - e), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.f - f), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.x - x), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.g - g), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.h - h), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.i - i), 2)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
