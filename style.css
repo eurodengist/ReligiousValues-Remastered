@@ -8,7 +8,7 @@ body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #dddddd;
+    background-color: #bbbbbb;
     border-color: #eeeeee;
     border-left-style: solid;
     border-right-style: solid;
@@ -140,7 +140,7 @@ div.text-wrapper {
     font-family: 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
-    color: #dddddd;
+    color: #bbbbbb;
     display: inline-block;
 }
 div.catholic {
