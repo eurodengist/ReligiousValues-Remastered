@@ -1,5 +1,5 @@
 html {
-    background-color: #999999;
+    background-color: #bcbcbc;
     padding: 0px;
 }
 body {
@@ -149,92 +149,92 @@ div.text-wrapper {
     display: inline-block;
 }
 div.catholic {
-    background-color: #a98d0b;
+    background-color: #ffcc00;
     text-align: left;
     border-right-style: solid;
 }
 div.anticatholic {
-    background-color: #a93b0b;
+    background-color: #806600;
     text-align: right;
     border-left-style: solid;
 }
 div.protestant {
-    background-color: #0b52a9;
+    background-color: #87cdde;
     text-align: left;
     border-right-style: solid;
 }
 div.antiprotestant {
-    background-color: #a90b47;
+    background-color: #0088aa;
     text-align: right;
     border-left-style: solid;
 }
 div.orthodox {
-    background-color: #5d0ba9;
+    background-color: #660080;
     text-align: left;
     border-right-style: solid;
 }
 div.antiorthodox {
-    background-color: #86a90b;
+    background-color: #3c0b49;
     text-align: right;
     border-left-style: solid;
 }
-div.philosemitic {
-    background-color: #0b98a9;
+div.judaic {
+    background-color: #214478;
     text-align: left;
     border-right-style: solid;
 }
-div.antisemitic {
-    background-color: #a90b0b;
+div.antijudaic {
+    background-color: #00112b;
     text-align: right;
     border-left-style: solid;
 }
-div.islamophilic {
-    background-color: #194b05;
+div.sunni {
+    background-color: #008033;
     text-align: left;
     border-right-style: solid;
 }
-div.islamophobic {
-    background-color: #a90ba7;
+div.antisunni {
+    background-color: #165016;
+    text-align: right;
+    border-left-style: solid;
+}
+div.shia {
+    background-color: #a02c2c;
+    text-align: left;
+    border-right-style: solid;
+}
+div.antishia {
+    background-color: #550000;
     text-align: right;
     border-left-style: solid;
 }
 div.buddhist {
-    background-color: #efe761;
+    background-color: #ffaacc;
     text-align: left;
     border-right-style: solid;
 }
 div.antibuddhist {
-    background-color: #0ba96f;
+    background-color: #800033;
     text-align: right;
     border-left-style: solid;
 }
 div.prohindu {
-    background-color: #a9520b;
+    background-color: #ff6600;
     text-align: left;
     border-right-style: solid;
 }
 div.antihindu {
-    background-color: #687dcd;
+    background-color: #94430d;
     text-align: right;
     border-left-style: solid;
 }
 div.pagan {
-    background-color: #7060b6;
+    background-color: #6c6753;
     text-align: left;
     border-right-style: solid;
 }
 div.antipagan {
-    background-color: #eae398;
-    text-align: right;
-    border-left-style: solid;
-}
-div.satanic {
-    background-color: #430303;
-    text-align: left;
-    border-right-style: solid;
-}
-div.divine {
-    background-color: #ffe400;
+    background-color: #484537;
     text-align: right;
     border-left-style: solid;
 }
@@ -244,7 +244,7 @@ div.religious {
     border-left-style: solid;
 }
 div.atheistic {
-    background-color: #000000;
+    background-color: #333333;
     text-align: right;
     border-right-style: solid;
 }
